@@ -1,0 +1,52 @@
+@import '../customize/variables';
+.navbar{
+    background-color: $bg-blue;
+}
+.navbar .logo{
+    width: $w-200;
+}
+a.nav-link.dropdown-toggle{
+    color: $white;
+    font-size: $fs-17;
+}
+.dropdown-toggle::after{
+   content: none;
+}
+form .form-control{
+    width: $w-455;
+    background-color: $bg-blue-light;
+    border: $blue;
+    margin: 0 25px;
+}
+form .form-control::placeholder{
+    color: $white;
+}
+a.dropdown-item{
+    color: $gray-light;
+    padding: $padding-10;
+}
+a.dropdown-item i{
+    color: $blue-light;
+    font-size: $fs-21;
+    padding-right: $padding-10;
+    
+}
+.dropdown-top{
+    color: $blue-light;
+    font-size: $fs-13;
+    font-weight: $fw-600;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 2;
+    padding: $padding-5;
+   font-weight: $fw-bolder;
+}
+@media (max-width: 768px) {
+    form .form-control{
+        width: $w-260;
+        background-color: $bg-blue-light;
+        border: $blue;
+        margin: 0 25px;
+    }
+}

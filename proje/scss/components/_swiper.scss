@@ -1,0 +1,140 @@
+@import '../customize/variables';
+
+// ##################### SWIPER 1 - START ############################
+#carouselExampleControls {
+  background-color: $bg-blue;
+  padding-bottom: $pb-20;
+  
+  .carousel-item{
+    #img1 {
+      width: $w-530;
+      height: $h-450;
+      }
+    
+      #img2 {
+        width: $w-260;
+        height: $h-450;
+      }
+    
+      #img3 {
+        width: $w-260;
+        height: $h-450;
+      }
+    
+      @media (max-width:768px) {
+        #img1 {
+            width: $w-280;
+            height: $h-250;
+        }
+        #img2 {
+            width: $w-100;
+            height: $h-250;
+        }
+        #img3 {
+            width: $w-100;
+            height: $h-250;
+        }
+      }
+    }
+    button .carousel-control-prev-icons {
+      width: $w-70;
+      height: $h-70;
+      line-height: $lh-60;
+      background-color: $black;
+      span i{
+        color: $white;
+      }
+    }
+
+    button .carousel-control-next-icons {
+      width: $w-70;
+      height: $h-70;
+      line-height: $lh-60;
+      background-color: $black;
+      span i{
+              color: $white;
+      }
+    }
+}
+// ##################### SWIPER 1 - END ############################
+
+
+
+// ##################### SWIPER 2 - START ############################
+.swiper {
+  width: 100%;
+  height: 800px;
+  
+}
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+      margin-bottom: 50px;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      object-fit: cover;
+    }
+    #tooltip {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(34, 150, 243);
+    display: none;
+    margin-top: -28px;
+}
+
+#tooltip h6 a {
+    color: white;
+    text-decoration: none;
+}
+
+.col-12.col-lg-3.col-md-4:hover #tooltip {
+    color: black;
+    display: block;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+}
+
+.tooltip-icons {
+    width: 60px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(20, 100, 192);
+    font-size: 25px;
+}
+.swiper-button-next {
+    width: 70px;
+    height: 70px;
+    color: white;
+    line-height: 60px;
+    background-color: black;
+}
+
+.swiper-button-prev {
+    width: 70px;
+    height: 70px;
+    color: white;
+    line-height: 60px;
+    background-color: black;
+}
+.swiper-wrapper{
+  height: 600px;
+}
+// ##################### SWIPER 2 - END ############################

@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Vatan Computer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <!-- ####################### Link CSS - START ##################################### -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./dist/style.css">
+  <!-- ####################### Link CSS - START ##################################### -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+<body>
+
+  <!-- #######################  NAVBAR - START      ################################# -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <img class="logo" src="images/VatanComputer.png" alt="">
+      <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon bg-white"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-center text-lg-start">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="bi bi-list"></i>
+                Dropdown
+            </a>
+            <ul class="dropdown-menu">
+                <div class="dropdown-top">
+                    <span>FIRSAT</span>
+                    <span>WEB'E ÖZEL</span>
+                    <span>YENİ</>
+                </div>
+                <hr>
+                <li><a class="dropdown-item" href="#"><i class="bi bi-phone"></i>Telefon</a></li>
+                <li><a class="dropdown-item" href="#"><i class="bi bi-laptop"></i>Bilgisayar</a></li>
+                <li><a class="dropdown-item" href="#"><i class="bi bi-cpu"></i>Bilgisayar PArçaları</a></li>
+                <li><a class="dropdown-item" href="#"><i class="bi bi-camera"></i>Fotoğraf & Kamera</a></li>
+                <li><a class="dropdown-item" href="#"><i class="bi bi-tv"></i> TV & Ev Elektroniği</a></li>
+                <li><a class="dropdown-item" href="#"><i class="bi bi-printer"></i>Ofis Malzemeleri</a></li>
+                <li><a class="dropdown-item" href="#"><i class="bi bi-controller"></i> Oyun & Hobi</a></li>
+            </ul>
+          </li>
+          <form class="d-flex order-5 order-lg-0 p-2" role="search">
+              <input class="form-control text-center" type="search" placeholder="Ürün Ara" aria-label="Search">
+          </form>
+          <li class="nav-item p-2 text-white">
+              <span>Üyelik</span>
+              <i class="bi bi-person-fill border-5 p-1 rounded-circle ms-2 fs-4"></i>
+          </li>
+          <li class="nav-item p-2 text-white">
+              <span>Sepetim</span>
+              <i class="bi bi-cart border-5 rounded-circle ms-2 fs-4"></i>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- #######################  NAVBAR - END        ################################# -->
+
+  <!-- #######################  SLIDER-HERO - START #################################-->
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner text-center">
+        <div class="carousel-item active">
+          <img
+            src="./images/slider-header/sony-audio.png"
+            class="d-inline-block" id="img1"
+            alt="..."      
+          />
+          <img
+            src="./images/slider-header/lg-tv.png"
+            class="d-inline-block" id="img2"
+            alt="..."
+          />
+          <img
+            src="./images/slider-header/general-mobile.png"
+            class="d-inline-block" id="img3"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item active">
+          <img
+            src="./images/slider-header/sony-audio.png"
+            class="d-inline-block" id="img1"
+            alt="..."
+          />
+          <img
+            src="./images/slider-header/lg-tv.png"
+            class="d-inline-block" id="img2"
+            alt="..."
+          />
+          <img
+            src="./images/slider-header/general-mobile.png"
+            class="d-inline-block" id="img3"
+            alt="..."
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev"
+      >
+        <span aria-hidden="true" class="carousel-control-prev-icons">
+          <i class="bi bi-caret-left-fill" style="width: 40px;height: 40px;"></i>
+        </span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="next"
+      >
+        <span aria-hidden="true" class="carousel-control-next-icons">
+          <i class="bi bi-caret-right-fill" style="width: 40px;height: 40px;"></i>
+        </span>
+        <span class="visually-hidden">Next</span>
+      </button>
+  </div>
+  <!-- ####################### SLIDER-HERO - END   ################################# -->
+   
+  <!-- ################# ÖNE ÇIKAN ÜRÜNLER (CARD GROUPS) - START ################## -->
+  <section>
+      <div class="container mb-5 mt-3">
+        <div class="row justify-content-center gx-0" id="cards">
+          <div class="featured">
+            <h3>Öne Çıkan Ürünler</h3>
+            <a href="#">
+              <span>TÜM ÖNE ÇIKANLAR</span>
+              <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+          <!-- CARD 1  START -->
+          <div class="col-12 col-lg-3 col-md-4 testing" >
+            <div class="card">
+              <img src="images/featured-products/featured-1.webp" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <div class="body-text">
+                  <i class="bi bi-star-fill"> 4,6</i>
+                  <span class="comment">(122 Yorum)</span>
+                </div>
+                <span class="seri-no">PA65RTH658GG2</span>
+                <h5 class="card-title">IPHONE 6 16 GB AKILLI TELEFON UZAY GRİSİ</h5>
+                <div class="product-info">
+                  <h2>₺14.499</h2>
+                  <div class="product-cargo">
+                    <span>YALNIZCA 2 ÜRÜN KALDI</span>
+                  </div>
+                  <span class="cargo">BUGÜN KARGODA</span>
+                  <div class="text-start" id="tooltip">
+                    <div class="tooltip-icons d-inline-block text-center">
+                      <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg%22%3E<g><path fill="none" d="M0 0h24v24H0z"></path><path d="M16 16v-4l5 5-5 5v-4H4v-2h12zM8 2v3.999L20 6v2H8v4L3 7l5-5z"></path></g></svg></div><h6 class="ps-4 d-inline-block text-white">
+                      <a href="#">SEPETE EKLE</a> </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- CARD 1  END -->
+        </div>
+      </div>
+  </section>
+  <!-- ################# ÖNE ÇIKAN ÜRÜNLER (CARD GROUPS) - END   ################### -->
+
+
+
+  <!-- ##################### SWIPER SLIDER - START ############################### -->
+  <div class="container">
+  <!-- #################### SWIPER SLIDER ####################### -->
+  <!-- SWIPER JS - SLIDER 2 -->
+  <div class="swiper mySwiper">
+    <div class="featured px-5">
+      <h3>Çok Satanlar</h3>
+      <a href="#">
+        <span>TÜM ÖNE ÇIKANLAR</span>
+        <i class="bi bi-arrow-right"></i>
+      </a>
+</div>
+    <div class="swiper-wrapper">
+      <div class="swiper-slide row">
+        <!-- CARD 1 -->
+        <div class="col-12 col-lg-3 col-md-4">
+          <div class="card">
+            <img src="images/featured-products/featured-1.webp" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <div class="body-text">
+                <i class="bi bi-star-fill"> 4,6</i>
+                <span class="comment">(122 Yorum)</span>
+              </div>
+              <span class="seri-no">PA65RTH658GG2</span>
+              <h5 class="card-title">IPHONE 6 16 GB AKILLI TELEFON UZAY GRİSİ</h5>
+              <div class="product-info">
+                <h2>₺14.499</h2>
+                <div class="product-cargo">
+                  <span>YALNIZCA 2 ÜRÜN KALDI</span>
+                </div>                  
+                <span class="cargo">BUGÜN KARGODA</span>
+                <div class="text-start" id="tooltip">
+                  <div class="tooltip-icons d-inline-block text-center"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><g><path fill="none" d="M0 0h24v24H0z"></path><path d="M16 16v-4l5 5-5 5v-4H4v-2h12zM8 2v3.999L20 6v2H8v4L3 7l5-5z"></path></g></svg></div>
+                  <h6 class="ps-4 d-inline-block text-white"><a href="#">SEPETE EKLE</a> </h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- CARD 1 -->
+      </div>
+      <div class="swiper-slide" style="width: 0;">
+        <!-- CARD 1 -->
+        <div class="col-12 col-lg-3 col-md-4">
+          <div class="card">
+            <img src="images/featured-products/featured-1.webp" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <div class="body-text">
+                <i class="bi bi-star-fill"> 4,6</i>
+                <span class="comment">(122 Yorum)</span>
+              </div>
+              <span class="seri-no">PA65RTH658GG2</span>
+              <h5 class="card-title">IPHONE 6 16 GB AKILLI TELEFON UZAY GRİSİ</h5>
+              <div class="product-info">
+                <h2>₺14.499</h2>
+                <div class="product-cargo">
+                  <span>YALNIZCA 2 ÜRÜN KALDI</span>
+                </div>                  
+                <span class="cargo">BUGÜN KARGODA</span>
+                <div class="text-start" id="tooltip">
+                  <div class="tooltip-icons d-inline-block text-center"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><g><path fill="none" d="M0 0h24v24H0z"></path><path d="M16 16v-4l5 5-5 5v-4H4v-2h12zM8 2v3.999L20 6v2H8v4L3 7l5-5z"></path></g></svg></div>
+                  <h6 class="ps-4 d-inline-block text-white"><a href="#">SEPETE EKLE</a> </h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- CARD 1 -->
+      </div>
+      <div class="swiper-slide" style="width: 0;">
+        <!-- CARD 1 -->
+        <div class="col-12 col-lg-3 col-md-4">
+          <div class="card">
+            <img src="images/featured-products/featured-1.webp" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <div class="body-text">
+                <i class="bi bi-star-fill"> 4,6</i>
+                <span class="comment">(122 Yorum)</span>
+              </div>
+              <span class="seri-no">PA65RTH658GG2</span>
+              <h5 class="card-title">IPHONE 6 16 GB AKILLI TELEFON UZAY GRİSİ</h5>
+              <div class="product-info">
+                <h2>₺14.499</h2>
+                <div class="product-cargo">
+                  <span>YALNIZCA 2 ÜRÜN KALDI</span>
+                </div>                  
+                <span class="cargo">BUGÜN KARGODA</span>
+                <div class="text-start" id="tooltip">
+                  <div class="tooltip-icons d-inline-block text-center"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><g><path fill="none" d="M0 0h24v24H0z"></path><path d="M16 16v-4l5 5-5 5v-4H4v-2h12zM8 2v3.999L20 6v2H8v4L3 7l5-5z"></path></g></svg></div>
+                  <h6 class="ps-4 d-inline-block text-white"><a href="#">SEPETE EKLE</a> </h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- CARD 1 -->
+      </div>
+      <div class="swiper-slide" style="width: 0;">
+        <!-- CARD 1 -->
+        <div class="col-12 col-lg-3 col-md-4">
+          <div class="card">
+            <img src="images/featured-products/featured-1.webp" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <div class="body-text">
+                <i class="bi bi-star-fill"> 4,6</i>
+                <span class="comment">(122 Yorum)</span>
+              </div>
+              <span class="seri-no">PA65RTH658GG2</span>
+              <h5 class="card-title">IPHONE 6 16 GB AKILLI TELEFON UZAY GRİSİ</h5>
+              <div class="product-info">
+                <h2>₺14.499</h2>
+                <div class="product-cargo">
+                  <span>YALNIZCA 2 ÜRÜN KALDI</span>
+                </div>                  
+                <span class="cargo">BUGÜN KARGODA</span>
+                <div class="text-start" id="tooltip">
+                  <div class="tooltip-icons d-inline-block text-center"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><g><path fill="none" d="M0 0h24v24H0z"></path><path d="M16 16v-4l5 5-5 5v-4H4v-2h12zM8 2v3.999L20 6v2H8v4L3 7l5-5z"></path></g></svg></div>
+                  <h6 class="ps-4 d-inline-block text-white"><a href="#">SEPETE EKLE</a> </h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- CARD 1 -->
+      </div>
+      <div class="swiper-slide" style="width: 0;">
+        <!-- CARD 1 -->
+        <div class="col-12 col-lg-3 col-md-4">
+          <div class="card">
+            <img src="images/featured-products/featured-1.webp" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <div class="body-text">
+                <i class="bi bi-star-fill"> 4,6</i>
+                <span class="comment">(122 Yorum)</span>
+              </div>
+              <span class="seri-no">PA65RTH658GG2</span>
+              <h5 class="card-title">IPHONE 6 16 GB AKILLI TELEFON UZAY GRİSİ</h5>
+              <div class="product-info">
+                <h2>₺14.499</h2>
+                <div class="product-cargo">
+                  <span>YALNIZCA 2 ÜRÜN KALDI</span>
+                </div>                  
+                <span class="cargo">BUGÜN KARGODA</span>
+                <div class="text-start" id="tooltip">
+                  <div class="tooltip-icons d-inline-block text-center"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><g><path fill="none" d="M0 0h24v24H0z"></path><path d="M16 16v-4l5 5-5 5v-4H4v-2h12zM8 2v3.999L20 6v2H8v4L3 7l5-5z"></path></g></svg></div>
+                  <h6 class="ps-4 d-inline-block text-white"><a href="#">SEPETE EKLE</a> </h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- CARD 1 -->
+      </div>
+  
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+
+  <!-- SWIPER JS - SLIDER 2 -->
+  </div>
+  <hr>
+  <!-- #################### SWIPER SLIDER - END ################################## -->
+
+
+
+  <!-- #################### FOOTER - START ####################################### -->
+  <div class="container mt-5">
+      <div class="row ">
+        <div class="col-sm-6 col-md-4 col-lg-4 d-flex justify-content-between order-md-1">
+            <div>
+              <ul>
+                <h6 class=" ">KURUMSAL</h6>
+                <li> <a href="#"> Hakkımızda</a> </li>
+                <li> <a href="#"> Müşteri Hizmetleri</a> </li>
+                <li> <a href="#"> Sipariş Aşamaları</a> </li>
+                <li> <a href="#"> Sıkça Sorulan Sorular</a> </li>
+                <li> <a href="#"> İnsan Kaynakları</a> </li>
+                <li> <a href="#"> Gizlilik Politikamız</a> </li>
+              </ul>
+            </div>
+            <div>
+              <ul>
+                <h6></h6>
+                <li> <a href="#"> İletişim</a> </li>
+                <li> <a href="#"> Vatan Card</a> </li>
+                <li> <a href="#"> Servis Takip Formu</a> </li>
+                <li> <a href="#"> Mağazalar</a> </li>
+                <li> <a href="#"> İşlem Rehberi</a> </li>
+              </ul>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4 d-flex justify-content-between order-md-2">
+            <div>
+              <ul>
+                <h6 class=" ">KURUMSAL</h6>
+                <li> <a href="#"> İletişim</a> </li>
+                <li> <a href="#"> Vatan Card</a> </li>
+                <li> <a href="#"> Servis Takip Formu</a> </li>
+                <li> <a href="#"> Mağazalar</a> </li>
+                <li> <a href="#"> İşlem Rehberi</a> </li>
+              </ul>
+            </div>
+            <div>
+              <ul>
+                <h6></h6>
+                <li> <a class="" href="#"> Küçük Ev Aletleri</a> </li>
+                <li> <a href="#"> Kişisel Bakım Ürünleri</a> </li>
+                <li> <a href="#"> Elektrikli Süpürge</a> </li>
+                <li> <a href="#"> Ütü</a> </li>
+                <li> <a href="#"> Masaüstü Bilgisayar</a> </li>
+                <li> <a href="#"> Sabit Diskler</a> </li>
+              </ul>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4  order-md-3">
+          <ul>
+            <h6 class=""> Özel Ürünler</h6>
+            <li> <a href="#"> iPhone 7</a> </li>
+            <li> <a href="#"> iPhone 6S</a> </li>
+            <li> <a href="#"> iPhone 5S</a> </li>
+            <li> <a href="#"> iPhone SE</a> </li>
+            <li> <a href="#"> General Mobile 5 Plus</a> </li>
+            <li> <a href="#"> Galaxy S7</a> </li>
+            <li> <a href="#">  Note 5</a> </li>
+            <li> <a href="#"> Galaxy S6</a> </li>
+          </ul>
+        </div>
+      </div>
+  </div>
+  <hr>
+  <div class="container d-flex align-items-center flex-column flex-lg-row  bank-logo p-5 mt-3">
+      <div>
+        <h6>Türkiye'nin Teknoloji Hiperstoru</h6>
+        <p>Copyright 2016 Vatan Bilgisayar San. ve Tic. A.Ş.</p>
+      </div>
+      <div>
+        <img src="images/bank-logo/bkm-express.png" alt="">
+        <img src="images/bank-logo/master.png" alt="">
+        <img src="images/bank-logo/visa.png" alt="">
+        <img src="images/bank-logo/ameican-express.png" alt="">
+        <img src="images/bank-logo/norton.png" alt="">
+      </div>
+  </div>
+  <!-- #################### FOOTER - END ######################################### -->
+    
+
+
+  <!-- ###################### JAVASCRIPT - START ################################### -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="js/app.js"></script>
+  <!-- ##################### JAVASCRIPT - END ###################################### -->
+
+</body>
+
+</html>

@@ -1,0 +1,123 @@
+@import '../customize/variables';
+// ########### ÖNE ÇIKAN ÜRÜNLER (CARD GROUPS - HEADER) - START ############
+.featured{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: $mt-20;
+    h3{
+        color: black;
+    }
+    a{
+        text-decoration: none;
+        color: $blue;
+        font-weight: $fw-500;
+    }
+}
+// ########### ÖNE ÇIKAN ÜRÜNLER (CARD GROUPS - HEADER) - END ############
+
+
+// ########### ÖNE ÇIKAN ÜRÜNLER (CARD GROUPS ) - START ##################
+
+.col-12{
+    .card{
+        width: 100%;
+        margin-top: $mt-20;
+        padding: 0;
+        .top-card{
+            width: 100%;
+            height: $h-40;
+            color: $white;
+            background-color: $blue-light;
+            font-size: $fs-12;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .top-title{
+            width: 100%;
+            height: $h-40;
+            color: $white;
+            color: $blue-light;
+            font-size: $fs-12;
+            font-weight: $fw-700;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card-img-top{
+            padding: $padding-10;
+        }
+        .card-body{
+            .body-text{
+                margin-bottom: $mb-15;
+                i.bi.bi-star-fill{
+                    color: $yellow;
+                }
+                .comment, .seri-no{
+                    color: $gray-light;
+                }
+            }
+            .card-title{
+                color: $gray;
+            }
+            .product-info{
+                h2{
+                    color: $blue-light;
+                    font-weight: bolder;
+                }
+                .product-cargo{
+                    position: relative;
+                    margin-bottom: $mb-35;
+                    span{
+                        color: $red;
+                        font-size: $fs-11;
+                        font-weight: $fw-bolder;
+                        position:absolute;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                    }
+                }
+                .cargo{
+                    color: $gray-light;
+                    background-color: $white;
+                    border: 0;
+                    border-radius: $border-radius-4;
+                    padding: $padding-5;
+                }
+                #tooltip {
+                    width: 100%;
+                    height: $h-50;
+                    background-color: $bg-blue-light;
+                    display: none;
+                    margin-top: $mt--28;
+                    
+                    .tooltip-icons {
+                        width: $w-60;
+                        height: $h-50;
+                        color: $white;
+                        background-color: $bg-blue;
+                        font-size: $fs-25;
+                    }
+                
+                    h6 a {
+                        color: $white;
+                        text-decoration: none;
+                    }  
+                }
+            }
+        }
+    }
+}
+
+.col-12.col-lg-3.col-md-4:hover #tooltip {
+    color: $black;
+    display: block;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+}
+// ########### ÖNE ÇIKAN ÜRÜNLER (CARD GROUPS ) - END ##################

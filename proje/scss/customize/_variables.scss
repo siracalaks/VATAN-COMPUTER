@@ -1,0 +1,96 @@
+body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+
+// TEMA COLOR
+$black : black;
+$white : white;
+$yellow : yellow;
+$blue : #1564C0;
+$blue-light : #2196f3;
+$gray : rgb(56, 54, 54);
+$gray-light : #797979;
+$red : rgb(213, 29, 29);
+
+// BACKGROUND-COLOR
+$bg-blue-light : #2196f3;
+$bg-blue : #1564C0;
+$bg-white : white;
+
+// HEIGHT
+$h-32: 32px;
+$h-40: 40px;
+$h-50: 50px;
+$h-70: 70px;
+$h-250: 250px;
+$h-450: 450px;
+$h-800: 800px;
+
+// WIDTH
+$w-45: 45px;
+$w-60: 60px;
+$w-70: 70px;
+$w-100: 100px;
+$w-170: 170px;
+$w-200: 200px;
+$w-260: 260px;
+$w-280: 280px;
+$w-455: 455px;
+$w-530: 530px;
+
+
+
+
+
+// FONT SIZE
+$fs-11: 11px;
+$fs-12: 12px;
+$fs-13: 13px;
+$fs-17: 17px;
+$fs-18: 18px;
+$fs-21: 21px;
+$fs-25: 25px;
+$fs-sm: small;
+
+// FONT WEIGHT
+$fw-500: 500;
+$fw-600: 600;
+$fw-700: 700;
+$fw-bolder: bolder;
+
+
+// MARGIN-TOP
+$mt-20: 20px;
+$mt-28: 28px;
+$mt--28: -28px;
+
+// MARGİN BOTTOM
+$mb-15: 15px;
+$mb-35: 35px;
+$mb-50: 50px;
+
+
+
+// PADDING
+$padding-5: 5px;
+$padding-10: 10px;
+
+// PADDING-BOTTOM
+$pb-20: 20px;
+
+// PADDING- RIGHT
+$pr-10: 10px;
+
+// LINE - HEIGHT
+$lh-25: 25px;
+$lh-60: 60px;
+
+// BORDER
+$border-radius-4: 4px;

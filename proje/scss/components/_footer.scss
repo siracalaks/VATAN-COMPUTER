@@ -1,0 +1,44 @@
+@import '../customize/variables';
+.row{
+            h6{
+                color: $gray;
+            }
+            ul li {
+                list-style: none;
+                display: block;
+                padding-left: 0;
+                line-height: $lh-25;
+                font-size: $fs-sm;
+                width: $w-170;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                a{
+                    text-decoration: none;
+                    color: $gray;
+                    text-decoration:none;
+                }
+                a:hover {
+                    text-decoration: none;
+                    color: $black !important;
+                }
+            }
+}
+.bank-logo{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    h6, p{
+        color: $gray;
+        font-size: $fs-sm;
+
+    }
+    img{
+        width: $w-45;
+        height: $h-32;
+        display: inline-block;
+        position: relative;
+        top: 4px;
+        background-size: contain;
+    }
+}
